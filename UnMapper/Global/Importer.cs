@@ -1,10 +1,14 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
-namespace UnMapper.V3
+namespace UnMapper.Global
 {
+    public class Importer
+    {
 
+    }
 }

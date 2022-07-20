@@ -8,7 +8,7 @@ using UnMapper.Global;
 
 namespace UnMapper.V3.Objects
 {
-    public class ColorNote
+    public class ColorNote : MapObject
     {
         public double beat;     // b
         public int x;           // x
@@ -42,5 +42,13 @@ namespace UnMapper.V3.Objects
         public MColorNote(double beat, int x, int y, int color, int direction, int angleOffset) : base(beat, x, y, color, direction, angleOffset)
         {
         }
+
+        public void setCoords(float[]? coordinates) {
+            this.coordinates = coordinates;
+        }
+    }
+
+    public class FakeColorNote : MColorNote {
+        
     }
 }
