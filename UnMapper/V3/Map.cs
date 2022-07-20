@@ -27,7 +27,7 @@ using UnMapper.Global;
 */
 namespace UnMapper.V3
 {
-    public class Map
+    public class Difficulty
     {
         string v = "3.0.0";
         BpmEvent[]? epmEvents;
@@ -41,6 +41,8 @@ namespace UnMapper.V3
         BoostEvent[]? lightColorEventBoxGroups;
         V3LightColorEvent[]? lightColorEvent;
         V3LightRotationEvent[]? lightRotationEvent;
-        
+        V3BasicEventTypeKeyword? basicEventTypesWithKeywords;
+        bool useNormalEventsAsCompatibleEvents = false;
+        CustomData[]? customData;
     }
 }
