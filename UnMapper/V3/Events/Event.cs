@@ -8,11 +8,10 @@ using UnMapper.Global;
 
 namespace UnMapper.V3.Events
 {
-    public class BasicEvent {
+    public class Event {
         float time; //t
         float type; //et
         int value; //i
         float floatValue; //f
-        
     }
 }
